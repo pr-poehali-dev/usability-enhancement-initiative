@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            О поездах
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Типы и категории</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Скоростные поезда",
+              description: "Сапсан, Ласточка, Стриж — поезда нового поколения со скоростью до 250 км/ч",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Дальнего следования",
+              description: "Фирменные и скорые поезда для комфортных путешествий на большие расстояния",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Пригородные",
+              description: "Электрички и региональные экспрессы для ежедневных поездок",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Международные",
+              description: "Маршруты в Европу и страны СНГ: Берлин, Хельсинки, Минск, Киев",
               direction: "bottom",
             },
           ].map((service, i) => (

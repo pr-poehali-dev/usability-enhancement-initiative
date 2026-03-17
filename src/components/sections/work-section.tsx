@@ -15,32 +15,32 @@ export function WorkSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Проекты
+            Маршруты
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Избранные работы</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Популярные направления</p>
         </div>
 
         <div className="space-y-6 md:space-y-8">
           {[
             {
               number: "01",
-              title: "ТехноСтарт",
-              category: "Корпоративный портал",
-              year: "2024",
+              title: "Москва — Санкт-Петербург",
+              category: "Сапсан · 650 км · 3ч 30мин",
+              year: "8 поездов",
               direction: "left",
             },
             {
               number: "02",
-              title: "АльфаТрейд",
-              category: "Финтех платформа",
-              year: "2024",
+              title: "Москва — Казань",
+              category: "Ласточка · 820 км · 11ч 30мин",
+              year: "4 поезда",
               direction: "right",
             },
             {
               number: "03",
-              title: "МедиаПульс",
-              category: "Медиа сервис",
-              year: "2023",
+              title: "Транссибирская магистраль",
+              category: "Россия · 9 288 км · 6 суток",
+              year: "2 поезда",
               direction: "left",
             },
           ].map((project, i) => (
